@@ -1,0 +1,4 @@
+name: blog.mange.name
+safe: true
+permalink: /:title.html
+future: false
