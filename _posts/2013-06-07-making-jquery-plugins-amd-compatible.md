@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Making jQuery plugins AMD compatible
-date:   2013-06-07 15:00:00
-tags:   JavaScript jQuery
+title: "Making jQuery plugins AMD compatible"
+date: "2013-06-07 15:00:00"
+tags:  JavaScript jQuery
 ---
 
 The jQuery team has made it simple to write some code and extend jQuery with it, this is great and I think it is one of the features that has made jQuery so popular.
