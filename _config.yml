@@ -1,4 +1,4 @@
-name: blog.mange.name
+name: Code is great
 safe: true
 permalink: /:title.html
 future: false
