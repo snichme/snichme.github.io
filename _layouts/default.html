@@ -1,32 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="/css/syntax.css">
-    <link rel="stylesheet" href="/css/main.css">
-  </head>
-  <body>
-    <header id="header">
-      <div class="container">
-        <nav>
-          <span>Reach me at</span>
-          <a href="http://twitter.com/snichme">Twitter</a>,
-          <a href="http://github.com/snichme">Github</a> or
-          <span>mange at mange.name</span>
-        </nav>
-        <h1>
-          <a href="/">
-              {{ site.name }}
-              <small>Here is some of my code</small>
-          </a>
-        </h1>
-      </div>
-    </header>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>{{ page.title }}</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="/assets/css/syntax.css">
+<link rel="stylesheet" href="/assets/css/ss-social.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+<header class="large" data-0="background-position:0px 0px;" data-500="background-position:0px -250px;">
     <div class="container">
-      {{ content }}
+        <div data-0="opacity: 1" data-180="opacity: 0">
+            <h1><a href="/">{{ site.name }}</a></h1>
+            <a class="button" href="/about.html">by Magnus Andersson</a>
+        </div>
     </div>
-  </body>
+</header>
+<div class="container">
+    {{ content }}
+</div>
+<footer>
+    <div class="container cols">
+        <div class="col1">
+            <h3>About</h3>
+            <p>
+            <img class="footer-avatar" src="http://www.gravatar.com/avatar/5fe41614b0f308d406270119e8e2b4d3?s=100">
+            I work as an IT-consultant in Stockholm, Sweden. My main focus are web development, where I work both with
+            development and security.
+            </p>
+            <p>
+            I'm a big fan of functional programming and my two favorite languages are JavaScript and Scala.
+            </p>
+        </div>
+        <div class="col2">
+            <h3>Social</h3>
+            <ul class="social">
+                <li><a href="https://github.com/snichme" class="ss-icon ss-social-circle" title="Github">octocat</a></li>
+                <li><a href="https://twitter.com/snichme" class="ss-icon ss-social-circle" title="Twitter">twitter</a></li>
+                <li><a href="http://blog.mange.name/rss" class="ss-icon ss-social-circle" title="Rss">rss</a></li>
+
+            </ul>
+            <br />
+            <p>I'm also on codewall <a href="https://coderwall.com/snichme">https://coderwall.com/snichme</a</p>
+        </div>
+        <div class="col3">
+            <h3>Projects</h3>
+
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="/assets/js/skrollr.js"></script>
+<script type="text/javascript">
+skrollr.init({forceHeight: false});
+</script>
+</body>
 </html>
