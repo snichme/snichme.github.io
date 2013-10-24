@@ -3,13 +3,9 @@ layout: tiny
 ---
 <div class="articles">
     <article>
+        <h2>{{ page.title }}</h2>
         <span class="meta tags">{{ page.tags | array_to_sentence_string }}</span>
         <span class="meta date">{{ page.date | date_to_string }}</span>
-
-        <h2>
-            <a href="{{ page.url }}">{{ page.title }}</a>
-        </h2>
-
         {{content}}
     </article>
 </div>
