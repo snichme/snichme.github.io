@@ -2,3 +2,5 @@ name: Code is great
 safe: true
 permalink: /:title.html
 future: false
+markdown: kramdown
+
