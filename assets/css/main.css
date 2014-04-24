@@ -136,11 +136,12 @@ article p {
 footer{
     margin:20px auto 0;
     font-size:13px;
-    color:#eee;
+    color:#fff;
     line-height:16px;
-    border-top:5px solid #312B28;
-    background:black;
+    border-top:5px solid #3b444f;
+    background:#3b444f;
     padding:10px 0 30px 0;
+    text-shadow: 1px 1px 1px #3b444f;
 }
 footer a:hover,
 footer .social li a:hover {
