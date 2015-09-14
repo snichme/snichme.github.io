@@ -2,6 +2,7 @@
 layout: post
 title: "OWASP Top 10 for JavaScript"
 date: "2013-04-22 19:00:00"
+author: Magnus Landerblom
 tags:  JavaScript Security
 ---
 Every web page gets more and more JavaScript, hence it is important that security is considered in this layer of your application as well!

@@ -1,6 +1,8 @@
-name: Code is great
+title: Magnus Landerblom Blog
+subtitle: Security focused web developer
 safe: true
 permalink: /:title.html
 future: false
 markdown: kramdown
+
 

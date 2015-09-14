@@ -2,6 +2,7 @@
 layout: post
 title: "Making jQuery plugins AMD compatible"
 date: "2013-06-07 15:00:00"
+author: Magnus Landerblom
 tags:  JavaScript jQuery
 ---
 
@@ -9,7 +10,7 @@ The jQuery team has made it simple to write some code and extend jQuery with it,
 
 But this post is not about who to write a jQuery plugin, it is about how you can structure the code for your plugin to allow it to be used both as standalone and on a site that uses AMD.
 
-This is how i structure all my jQuery plugins:
+This is how I structure all my jQuery plugins:
 {% highlight js %}
 (function (factory) {
   if (typeof define === 'function' && define.amd) {

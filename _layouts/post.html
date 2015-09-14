@@ -2,10 +2,15 @@
 layout: tiny
 ---
 <div class="articles">
-    <article>
-        <h2>{{ page.title }}</h2>
-        <span class="meta tags">{{ page.tags | array_to_sentence_string }}</span>
-        <span class="meta date">{{ page.date | date_to_string }}</span>
-        {{content}}
-    </article>
+  <article class="article">
+    <h2 class="article__headline">{{ page.title }}</h2>
+    <div class="article__meta">
+      <span class="meta__author">{{ page.author }}</span> on
+      <span class="meta__tags">{{ page.tags | array_to_sentence_string }}</span> |
+      <span class="meta__date">{{ page.date | date_to_string }}</span>
+    </div>
+    <div class="article__body">
+      {{content}}
+    </div>
+  </article>
 </div>
